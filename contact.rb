@@ -20,12 +20,12 @@ end
 
 Contact.auto_upgrade!
 
-ted = Contact.create(
-  first_name: "Ted",
-  last_name: "Small",
-  email: "tsmall@hotmail.com",
-  note: "confused"
-  )
+# ted = Contact.create(
+#   first_name: "Ted",
+#   last_name: "Small",
+#   email: "tsmall@hotmail.com",
+#   note: "confused"
+#   )
 
 # ed = Contact.create("Ed", "Coke", "ecoke@gmail.com", "2nd or 3rd contact")
 
