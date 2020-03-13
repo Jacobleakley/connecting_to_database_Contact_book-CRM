@@ -38,7 +38,7 @@ get '/recipes/:id' do
 end 
 
 get '/submit' do
-    @title = "Submit Your Recipe Here!"
+    @title = "Submit Your Recipe Here"
 
     erb :form
 end 

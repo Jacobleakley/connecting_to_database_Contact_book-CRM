@@ -1,22 +1,27 @@
 <form action='/submit' method='POST'>
 
     <div> 
-        <label for="name" name "Recipe Name">
+        <label for="name"> Recipe Name </label>
         <INPUT TYPE="name" name="Recipe Name" id="name"> 
     </div>
 
     <div>
-        <label for="Prepation Time" name "Preparation Time">
+        <label for="prep_time"> Preparation Time </label>
         <INPUT TYPE="number" name="Preparation Time" id="prep_time">
     </div>
 
     <div>
-        <label for="Description" name "Description">
-        <textarea name="Description" id="description" rows="5" cols="5">
+        <label for="description"> Description </label>
+        <textarea name="Description" id="description" rows="5" cols="50"></textarea>
     </div>
 
     <div>
-        <label for="url" name "URL of Picture">
+        <label for="picture"> URL of Picture </label>
         <INPUT TYPE="url" name="ULR of Picture" id="picture">
     </div>
+
+    <div>
+        <INPUT TYPE="submit" value="Add Recipe">
+    </div>
+
 </form>
