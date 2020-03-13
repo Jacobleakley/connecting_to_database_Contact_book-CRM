@@ -13,7 +13,13 @@ class Recipe < ActiveRecord::Base
     field :name, as: :string
     field :prep_time, as: :integer
     field :description, as: :text
+    field :picture, as: :string
 end 
 
 Recipe.auto_upgrade!
+
+at_exit do 
+    ActiveRecord::Base.connection.close
+end
+
 

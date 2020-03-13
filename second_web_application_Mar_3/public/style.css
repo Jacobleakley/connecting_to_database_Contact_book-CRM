@@ -1,0 +1,15 @@
+/* CLASS SELECTOR - can be applied to any items, similar as with ID. Cascading is one difference. Also able to create changes programmatically */
+.RecipeImage{
+    width: 600px;
+    height:300px;
+}  
+
+.Title{
+    font-size: 80px
+}
+
+#ID_One {
+width: ;
+height: ;
+etc: ;
+}
